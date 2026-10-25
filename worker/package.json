@@ -13,6 +13,9 @@
     "test": "node --test"
   },
   "devDependencies": {
-    "wrangler": "4.103.0"
+    "wrangler": "4.152.0"
+  },
+  "overrides": {
+    "undici": ">=7.30.1"
   }
 }
